@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="column1">
+        <img src="./andrew-de-leon--uWiIajRN0s-unsplash.jpg" class="i1"/>
+        <img src="./odin-lined.png" class="i2"/>
+        <p class="p0">THE ODIN PROJECT</p>
+        
+      </div>
+      <div class="column2">
+        <div class="row1">
+          <p class="r1">
+            You think you can defeat Barbara in the game of Shooting.<br />Then
+            try your luck in the game.<br />
+            Sign up to Shoot
+          </p>
+        </div>
+        <div class="row2">
+          <fieldset>
+            <legend>Fill details</legend>
+
+            <div class="formContainer">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName"  pattern="[a-z A-Z]+"placeholder="John"/>
+            </div>
+            <div class="formContainer">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" pattern="[a-z A-Z]+" placeholder="Mathew"/>
+            </div>
+            <div class="formContainer">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="raja12@gmail.com"/>
+            </div>
+            <div class="formContainer">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="text" id="phoneNumber" name="phoneNumber"  maxlength="10" pattern="[0-9]+" placeholder="1231231234" />
+            </div>
+            <div class="formContainer">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <div class="formContainer">
+               <label for="confirmPassword">Confirm Password</label>
+              <input type="password" id="confirmPassword" name="confirmPassword" />
+            </div>
+          </fieldset>
+        </div>
+        <div class="row3">
+            <div class="formContainer">
+                <button type="submit">Create Account</button>
+                <p class="r2">Already have an account?<a href="#">Log in</a></p>
+            </div>   
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

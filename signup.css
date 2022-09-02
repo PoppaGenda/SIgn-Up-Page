@@ -1,0 +1,134 @@
+:root{
+    --yellow-border-color:#F4C112ff;
+}
+body{
+    background-color: hsla(216, 100%, 19%, 1);
+}
+.container{
+    width:1950px;
+    height: 1050px;
+    border:0px solid var(--yellow-border-color);
+    margin:20px;
+    display:flex;
+    border-radius: 15px;
+}
+.column1{
+    width:35%;
+    position: relative;
+   
+}
+.i1{
+    width:100%;
+    height:101%;
+    border-radius: 5px;
+}
+.i2{
+    width:80px;
+    height:80px;
+    position: absolute;
+    left:240px;
+
+}
+.p0{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Times New Roman';
+    opacity: 1;
+    position: absolute;
+    left:80px;
+    top:40px;
+    color:aliceblue;
+}
+.column2{
+    width:65%;
+   
+    
+    
+}
+.row1,.row2,.row3{
+    
+    border: 1px solid  #9BA6C6ff;
+    
+  
+    
+}
+.row1{
+    background-color: #9BA6C6ff;
+    text-align: center;
+    font-size: 32px;
+    height:25%;
+    opacity:0.85;
+}
+.r1{
+    padding-top: 50px;
+   font-weight: bold;
+   color: #F4C112ff;
+}
+.row2{
+    background-color: #064375ff;
+    height:55%;
+}
+fieldset{
+    height:95%;
+    display:flex;
+    flex-wrap: wrap;
+    border-width: 4px;
+}
+legend{
+    color:#9BA6C6ff;
+    font-weight: bold;
+    font-size: 40px;
+}
+label{
+    color:#9BA6C6ff;
+    font-weight: bold;
+    font-size:20px
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    margin:10px;
+}
+input{
+    width:250px;
+    height:40px;
+    border-radius: 10px;
+}   
+
+input:invalid{
+    border-color: red;
+    border-width: 4px;
+}
+.row3{
+    background-color: #9BA6C6ff;
+    height:20%;
+    opacity:0.85;
+    
+}
+
+button{
+    margin-bottom: -50px;
+    padding:20px;
+    border-radius:5px; 
+    background-color: #064375ff;
+    color:rgb(255, 255, 255) ;
+    font-weight:bold ;       
+    opacity: 0.90;
+    font-size: 20px;
+}
+button:hover{
+    background-color: aliceblue;
+    color:#064375ff;
+    font-weight: bold;
+}
+a:focus{
+
+    color:red;
+}
+.r2{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 50px;
+}
